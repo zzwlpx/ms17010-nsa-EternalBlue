@@ -1,0 +1,6 @@
+administrator
+admin
+guest
+user
+admin$
+test

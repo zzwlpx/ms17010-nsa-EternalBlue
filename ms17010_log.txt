@@ -1,0 +1,28 @@
+2018-05-23 23:23:54,953 - INFO - expired!
+2018-05-23 23:24:58,625 - DEBUG - 
+2018-05-23 23:25:43,957 - DEBUG - 127.0.0.1
+2018-05-23 23:25:43,957 - INFO - 
+****************
+***mode:4***
+***addr:127.0.0.1***
+***port:445***
+***addrs:***
+***user:***
+***user file path:***
+***pwd:***
+***pwds:***
+***threads:1***
+***cmd:***
+***batch file:***
+***************
+2018-05-23 23:25:46,536 - INFO - parser user pwd dic...
+
+2018-05-23 23:25:46,536 - INFO - start attack...
+
+2018-05-23 23:25:46,536 - DEBUG - checkOne...
+2018-05-23 23:25:46,536 - INFO - check THREAD:0 started!
+2018-05-23 23:25:46,536 - INFO - check target:127.0.0.1 user: pwd:
+2018-05-23 23:25:46,536 - INFO - check target:127.0.0.1 user: pwd:
+2018-05-23 23:25:46,582 - INFO - 127.0.0.1 Login failed: STATUS_ACCESS_DENIED
+2018-05-23 23:25:46,582 - INFO - 127.0.0.1 OS:Windows 8.1 Pro 9600
+2018-05-23 23:25:46,582 - INFO - 127.0.0.1***{'vuln': '', 'pwd': '', 'target': '127.0.0.1', 'OS': 'Windows 8.1 Pro 9600', 'logon': 'NO', 'piped': '', 'arch': '', 'user': ''}
